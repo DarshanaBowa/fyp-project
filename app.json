@@ -1,0 +1,12 @@
+{
+  "name": "mobile-farmer",
+  "displayName": "mobile-farmer",
+  "expo": {
+    "name": "mobile-farmer",
+    "slug": "mobile-farmer",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "eng":{
+        "firstScreen" : {
+            "title": "Select Language",
+            "button" : "Next"
+        },
+        "loginScreen":{
+            "title": "Login Screen",
+            "button" : "Login"
+        }
+    },
+    "sin":{
+        "firstScreen" : {
+            "title": "භාෂාව තෝරන්න",
+            "button" : "ඊළඟ"
+        },
+        "loginScreen":{
+            "title": "ඇතුල් වන්න තිරය",
+            "button" : "ඇතුල් වන්න"
+        }
+    }
+}
