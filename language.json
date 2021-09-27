@@ -1,22 +1,114 @@
 {
-    "eng":{
-        "firstScreen" : {
-            "title": "Select Language",
-            "button" : "Next"
-        },
-        "loginScreen":{
-            "title": "Login Screen",
-            "button" : "Login"
-        }
+  "eng": {
+    "vegetables": [
+      {
+        "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+        "title": "Beans"
+      },
+      {
+        "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+        "title": "Tomato"
+      },
+      {
+        "id": "58694a0f-3da1-471f-bd96-145571e29d72",
+        "title": "Cabbage"
+      },
+      {
+        "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28b",
+        "title": "Spinach"
+      },
+      {
+        "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f6",
+        "title": "Brinjals"
+      },
+      {
+        "id": "58694a0f-3da1-471f-bd96-145571e29d7",
+        "title": "Broccoli"
+      },
+      {
+        "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28",
+        "title": "Mushrooms"
+      },
+      {
+        "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f",
+        "title": "Beets"
+      },
+      {
+        "id": "58694a0f-3da1-471f-bd96-145571e29d",
+        "title": "Carrots"
+      }
+    ],
+    "firstScreen": {
+      "title": "Select Language",
+      "button": "Next"
     },
-    "sin":{
-        "firstScreen" : {
-            "title": "භාෂාව තෝරන්න",
-            "button" : "ඊළඟ"
-        },
-        "loginScreen":{
-            "title": "ඇතුල් වන්න තිරය",
-            "button" : "ඇතුල් වන්න"
-        }
+    "loginScreen": {
+      "title": "Login Screen",
+      "button": "Login",
+      "loginTitle": "Login to Smart Farmer",
+      "emailPlaceHolderInput": "Email",
+      "pwdPlaceHolderInput": "Password"
+    },
+    "homeScreen": {
+      "title": "Home Screen",
+      "logout": "Logout",
+      "mainTitle": "Vegetables"
     }
+  },
+  "sin": {
+    "vegetables": [
+      {
+        "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+        "title": "බෝංචි"
+      },
+      {
+        "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+        "title": "තක්කාලි"
+      },
+      {
+        "id": "58694a0f-3da1-471f-bd96-145571e29d72",
+        "title": "ගෝවා"
+      },
+      {
+        "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28b",
+        "title": "නිවිති"
+      },
+      {
+        "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f6",
+        "title": "බටු"
+      },
+      {
+        "id": "58694a0f-3da1-471f-bd96-145571e29d7",
+        "title": "බ්රොකොලී"
+      },
+      {
+        "id": "bd7acbea-c1b1-46c2-aed5-3ad53abb28",
+        "title": "හතු"
+      },
+      {
+        "id": "3ac68afc-c605-48d3-a4f8-fbd91aa97f",
+        "title": "බීට්"
+      },
+      {
+        "id": "58694a0f-3da1-471f-bd96-145571e29d",
+        "title": "කැරට්"
+      }
+    ],
+    "firstScreen": {
+      "title": "භාෂාව තෝරන්න",
+      "button": "ඊළඟ"
+    },
+    "loginScreen": {
+      "title": "ඇතුල් වන්න තිරය",
+      "button": "ඇතුල් වන්න",
+      "loginTitle": "Smart Farmer වෙත ඇතුල් වන්න",
+      "emailPlaceHolderInput": "විද්යුත් තැපෑල",
+      "pwdPlaceHolderInput": "රහස් පදය"
+    },
+    "homeScreen": {
+      "title": "ප්රධාන තිරය",
+      "logout": "ඉවත් වන්න",
+      "mainTitle": "එළවළු"
+    }
+  }
 }

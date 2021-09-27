@@ -29,11 +29,12 @@ export function InitialScreen({ navigation }) {
       console.log(config[result[0].value]);
       setTransLations(config[result[0].value])
   
-    // try {
-    //     await AsyncStorage.setItem('@storage_Key', result[0].value)
-    //   } catch (e) {
-    //     // saving error
-    //   }
+    try {
+        await AsyncStorage.setItem('LANGUAGE', result[0].value);
+      } catch (e) {
+        // saving error
+        throw new Error("Couldn't save the LANGUAGE");
+      }
 
     setLang(result[0].value)
   
@@ -41,6 +42,15 @@ export function InitialScreen({ navigation }) {
     }
     useEffect(()=>{
       console.log("config,",config.eng);
+      async function fetchData() {
+        try {
+          await AsyncStorage.setItem('LANGUAGE', "eng");
+        } catch (e) {
+          // saving error
+          throw new Error("Couldn't save the LANGUAGE");
+        }
+      }
+      fetchData();
       
     },[]);
   
@@ -70,12 +80,6 @@ export function InitialScreen({ navigation }) {
           borderRadius: 20, borderColor: "#008000"
         }}
         onPress={() => navigation.navigate({name:'loginScreen',params: { lang: lang }})}
-        onPress={() => {
-            /* 1. Navigate to the Details route with params */
-            navigation.navigate('loginScreen', {
-                lang: lang,
-            });
-          }}
         >
           <Text style={{ fontSize: 20, color: "white" }}>{transLations[screenId].button}</Text>
         </TouchableOpacity>
