@@ -80,7 +80,7 @@ export function HomeScreen({ route, navigation }) {
       onPress={() => {
         navigation.navigate({
           name: "deseaseTypeScreen",
-          params: { lang: lang, itemSelected: title.toLowerCase() },
+          params: { lang: lang, itemSelected: lang == "eng" ? title.toLowerCase() : "beans" },
         });
       }}
       style={styles.item}
@@ -109,7 +109,51 @@ export function HomeScreen({ route, navigation }) {
   } else {
     return (
       <View style={{ flex: 1, alignItems: "center" }}>
-        <Text style={{ fontSize: 30, color: "#1ebba3" }}>
+        <View
+          style={{
+            flexDirection: "row",
+            justifyContent: "space-between",
+            width: "90%",
+          }}
+        >
+          <TouchableOpacity
+            style={{
+              flex: 1,
+              backgroundColor: "#000",
+              padding: 10,
+              borderRadius: 10,
+              margin: 5,
+            }}
+            onPress={() => {
+              navigation.navigate({
+                name: "helpScreen",
+                params: { lang: lang },
+              });
+            }}
+          >
+            <Text style={{ fontSize: 15, color: "white", textAlign: "center" }}>
+              {transLations[screenId].helpBtnText}
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={{
+              flex: 1,
+              backgroundColor: "#FE3C01",
+              padding: 10,
+              borderRadius: 10,
+              margin: 5,
+            }}
+            onPress={async () => {
+              await logoutUser();
+              await setLogin();
+            }}
+          >
+            <Text style={{ fontSize: 15, color: "white" }}>
+              {transLations[screenId].logout}
+            </Text>
+          </TouchableOpacity>
+        </View>
+        <Text style={{ flex: 2.5, fontSize: 30, color: "#1ebba3" }}>
           {transLations[screenId].mainTitle}
         </Text>
         <FlatList
@@ -117,22 +161,6 @@ export function HomeScreen({ route, navigation }) {
           renderItem={renderItem}
           keyExtractor={(item) => item.id}
         />
-        <TouchableOpacity
-          style={{
-            backgroundColor: "#FE3C01",
-            padding: 10,
-            borderRadius: 10,
-            marginTop: 5,
-          }}
-          onPress={async () => {
-            await logoutUser();
-            await setLogin();
-          }}
-        >
-          <Text style={{ fontSize: 20, color: "white" }}>
-            {transLations[screenId].logout}
-          </Text>
-        </TouchableOpacity>
       </View>
     );
   }

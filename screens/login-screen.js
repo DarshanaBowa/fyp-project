@@ -4,6 +4,7 @@ import { StyleSheet, Text, View, TouchableOpacity } from "react-native";
 import { TextInput } from "react-native-gesture-handler";
 import languageJSON from "../language.json";
 import { AuthStore } from "../stores/auth-store";
+import RadioGroup from "react-native-radio-buttons-group";
 export function LoginScreen({ route, navigation }) {
   const { lang } = route.params;
   console.log(lang);
@@ -14,10 +15,55 @@ export function LoginScreen({ route, navigation }) {
   const [transLations, setTransLations] = useState(languageJSON[lang]);
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
+  const setConsultant = AuthStore((state) => state.setIsConsultant)
+  const radioButtonsData = [
+    {
+      id: "1", // acts as primary key, should be unique and non-empty string
+      label: "Farmer",
+      value: "far",
+      selected: true,
+    },
+    {
+      id: "2",
+      label: "Consultant",
+      value: "con",
+    },
+  ];
+  const [radioButtons, setRadioButtons] = useState(radioButtonsData);
 
   useEffect(() => {
     console.log(transLations[screenId].loginTitle);
-  });
+    async function fetchData() {
+      try {
+        await AsyncStorage.setItem("IS_CONSULTANT", "false");
+      } catch (e) {
+        // saving error
+        throw new Error("Couldn't save the LANGUAGE");
+      }
+    }
+    fetchData();
+  }, []);
+
+  async function onPressRadioButton(radioButtonsArray) {
+    // console.log("Btn press ",radioButtonsArray);
+    const result = radioButtonsArray.filter((val) => val.selected == true);
+    console.log(result);
+
+    try {
+      if (result[0].value == "far") {
+        console.log("Farmerrererer");
+        await AsyncStorage.setItem("IS_CONSULTANT", "false");
+      } else {
+        console.log("consultttaa");
+        await AsyncStorage.setItem("IS_CONSULTANT", "true");
+      }
+    } catch (e) {
+      // saving error
+      throw new Error("Couldn't save the LANGUAGE");
+    }
+
+    setRadioButtons(radioButtonsArray);
+  }
 
   async function loginUser() {
     console.log("email", email, "pass", pass);
@@ -25,6 +71,7 @@ export function LoginScreen({ route, navigation }) {
       console.log("Successfully logged in");
       await newloginUser();
       await setLogin();
+      await setConsultant();
       // navigation.navigate({name:'homeScreen',params: { lang: lang }});
     } else {
       console.log("Credential doesn't match");
@@ -40,6 +87,13 @@ export function LoginScreen({ route, navigation }) {
         backgroundColor: "white",
       }}
     >
+      <View style={{ marginTop: "10%" }}>
+        <RadioGroup
+          layout="row"
+          radioButtons={radioButtons}
+          onPress={onPressRadioButton}
+        />
+      </View>
       <Text
         style={{
           fontSize: 25,

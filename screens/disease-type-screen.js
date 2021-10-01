@@ -167,7 +167,7 @@ export function DiseaseTypeScreen({ route, navigation }) {
             {transLations[screenId].diseaseType.insects}
           </Text>
         </TouchableOpacity>
-        <TouchableOpacity
+        {/* <TouchableOpacity
           onPress={() => {
             selectType("soil");
           }}
@@ -181,6 +181,7 @@ export function DiseaseTypeScreen({ route, navigation }) {
             {transLations[screenId].diseaseType.soil}
           </Text>
         </TouchableOpacity>
+       */}
       </View>
       <FlatList
         data={diseasesList?.[typeSelected]}

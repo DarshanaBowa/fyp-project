@@ -43,15 +43,15 @@
         "fungus": [
           {
             "id": "fungus-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-            "title": "disease1",
-            "image": "https://previews.123rf.com/images/wisawa222/wisawa2221908/wisawa222190800006/128945071-kidney-bean-with-fungus-very-dangerous.jpg",
-            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+            "title": "Fusarium",
+            "image": "http://www.biobestgroup.com/public/uploads/images/pests/fusarium-wilt-disease-tomato-01.jpg",
+            "desc": "Fusarium is the most common root rot found in beans since it is not limited to certain locations.It is mostly found in soil which has a history of intensive vegetable production. Fusarium is also called ‘Wilt disease’ as the plants wilt due to a reduction in side root development."
           },
           {
-            "id": "fungus-3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
-            "title": "fungus disease2",
-            "image": "https://previews.123rf.com/images/wisawa222/wisawa2221908/wisawa222190800006/128945071-kidney-bean-with-fungus-very-dangerous.jpg",
-            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+            "id": "fungus-3ac68afc-c605-48d3-a4f8-fbd91aa97f63b",
+            "title": "Anthracnose",
+            "image": "https://www.walterreeves.com/wp-content/uploads/2020/03/beananthrac.jpg",
+            "desc": "Anthracnose is caused by Colletotrichum lindemuthianum and can be destructive in humid hot climates. The underside of leaves become reddish and angular spots appear on the upper surface.  The pods have typically round, dark brown sunken spots with orange coloured borders. Each spot is about 5mm in diameter.  The spots are the hub of millions of spores that are released under humid conditions.  The red brown spots are also found on the stems. The fungus overwinters on rotten material around fields."
           },
           {
             "id": "fungus-58694a0f-3da1-471f-bd96-145571e29d72",
@@ -63,10 +63,24 @@
         "backteria": [
           {
             "id": "backteria-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-            "diseaseId": "backteria-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
             "title": "Halo Blight",
             "image": "https://ag.umass.edu/sites/ag.umass.edu/files/fact-sheets/images/clip_image003.jpg",
-            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food.",
+            "desc": "Leaf symptoms first appear as small, water-soaked spots on the lower leaf surface. These lesions rapidly become necrotic and are visible on both upper and lower leaf surfaces. Infection of expanding leaves may result in leaf distortion. A chlorotic zone of yellow tissue (halo) develops around necrotic spots. In cases of severe infection, a generalized systemic chlorosis can occur. Symptoms also occur on pods and stems as water-soaked, red or brown lesions which may exhibit crusty bacterial ooze.",
+            "preventionsList": [
+              "Start with certified, disease free seed. Seed produced in arid areas and tested for freedom from Halo blight should be used.",
+              "Cultivars with resistance are available.",
+              "Rotate to non-host crops for 2-4 years.",
+              "Promptly incorporate bean debris after harvest to encourage decomposition.",
+              "Eliminate weeds and volunteer beans that might be potential reservoirs for the bacteria.",
+              "Furrow or drip irrigation is preferred to prevent secondary spread of the bacteria.",
+              "Avoid cultivation and other traffic through fields when the foliage is wet."
+            ]
+          },
+          {
+            "id": "backteria-bd7acbea-c1b1-46c2-aed5-3ad53abb28bb",
+            "title": "Pseudomonas syringae pv",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcPquH5e0F4CS5lmGzj6f020Bo-Qn0Dt1bsg&usqp=CAU",
+            "desc": "Bacterial brown spot is caused by the bacterium Pseudomonas syringae pv.On lima beans, small, light gray spots with yellowish brown borders develop on the upper leaf surface. Water-soaking is not as pronounced as it is in common and halo blights. Later, the gray centers may crack open or drop out, leaving small holes. The veins on the under leaf surface turn red or reddish brown. The spots on the stems and pods are somewhat more elongated than those on the leaves. In severe cases much of the foliage may be killed.",
             "preventionsList": [
               "Start with certified, disease free seed. Seed produced in arid areas and tested for freedom from Halo blight should be used.",
               "Cultivars with resistance are available.",
@@ -78,18 +92,25 @@
             ]
           }
         ],
+
         "insects": [
           {
             "id": "insects-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
-            "title": "insects disease1",
-            "image": "https://www.growingproduce.com/wp-content/uploads/2014/11/bean-leaf-beetle-for-web.jpg",
-            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+            "title": "Slugs and Snails",
+            "image": "https://www.corrys.com/-/media/Images/Corrys-NA/US/Articles/Slugs-and-Snails-All-You-Need-To-Know/multiple-slugs-eating.jpg?h=600&la=en&w=800&hash=7B7B5AFA37081CC3998020E986B248CF46212038",
+            "desc": "Slugs and snails are common garden pests that also cause problems for green bean growers. These garden mollusks do their dirty work of chewing on plant leaves and flowers during the night or on cloudy or foggy days. They are rarely seen when the sun is shining, preferring to shelter under rocks, plant pots or wood boards. Large irregular-shaped holes on green bean plant leaves are signs of a slug or snail problem, as is the silvery mucous trail they leave behind."
           }
         ],
         "soil": [
           {
             "id": "soil-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
             "title": "soil disease1",
+            "image": "https://plantvillage-production-new.s3.amazonaws.com/images/pics/000/000/767/original/White_mold_2.jpg?1370528410",
+            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+          },
+          {
+            "id": "soil-bd7acbea-c1b1-46c2-aed5-3ad53abb28bc",
+            "title": "soil disease2",
             "image": "https://plantvillage-production-new.s3.amazonaws.com/images/pics/000/000/767/original/White_mold_2.jpg?1370528410",
             "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
           }
@@ -110,7 +131,8 @@
     "homeScreen": {
       "title": "Home Screen",
       "logout": "Logout",
-      "mainTitle": "Vegetables"
+      "mainTitle": "Vegetables",
+      "helpBtnText": "Help"
     },
     "diseaseTypeScreen": {
       "title": "Disease Types",
@@ -123,6 +145,17 @@
     },
     "diseaseDetailScreen": {
       "title": "Disease Controls & Preventions"
+    },
+    "helpScreen": {
+      "title": "Help Screen",
+      "postText": "Ask Help",
+      "previousQuestionText": "Previously asked question",
+      "logout": "Logout"
+    },
+    "answersScreen":{
+      "title": "Answers",
+      "addAnswerBtn" : "Add your Answer",
+      "answerPlaceHolderInput": "Answer"
     }
   },
   "sin": {
@@ -164,7 +197,72 @@
         "title": "කැරට්"
       }
     ],
-    "diseases": {},
+    "diseases": {
+      "beans": {
+        "fungus": [
+          {
+            "id": "fungus-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+            "title": "ෆුසාරියම්",
+            "image": "http://www.biobestgroup.com/public/uploads/images/pests/fusarium-wilt-disease-tomato-01.jpg",
+            "desc": "ෆුසාරියම් යනු බෝංචි වල බහුලව දක්නට ලැබෙන මුල් කුණුවීම වන අතර එය සමහර ස්ථාන වලට පමණක් සීමා නොවන බැවින් එය වැඩි වශයෙන් දක්නට ලැබෙන්නේ දැඩි එළවළු නිෂ්පාදන ඉතිහාසයක් ඇති පසෙහි ය. පසෙහි මුල් වර්ධනයේ අඩුවීමක් හේතුවෙන් පැල මැලවී යන බැවින් ෆියුසාරියම් ‘විල්ට් ලෙඩ’ ලෙසද හැඳින්වේ."
+          },
+
+          {
+            "id": "fungus-3ac68afc-c605-48d3-a4f8-fbd91aa97f63b",
+            "title": "ඇන්ත්‍රැක්නෝස්",
+            "image": "https://www.walterreeves.com/wp-content/uploads/2020/03/beananthrac.jpg",
+            "desc": "ඇන්ත්‍රැක්නෝස් ඇතිවීමට හේතුව කොලෙටොට්‍රිකම් ලින්ඩෙමුතියනම් වන අතර තෙත් උණුසුම් දේශගුණයකදී විනාශකාරී විය හැකිය. පත්‍ර වල යටි පැත්ත රතු පැහැයට හැරෙන අතර ඉහළ මතුපිට කෝණික ලප දිස් වේ. කරල් වල තැඹිලි පාට මායිම් සහිත වටකුරු තද දුඹුරු පැහැයට හුරු ලප ඇත. සෑම ස්ථානයක්ම විෂ්කම්භය 5mm පමණ වේ. මෙම ලප තෙතමනය සහිත තත්වයන් යටතේ මුදා හරින මිලියන ගණනක් බීජාණු වල කේන්ද්‍රස්ථානයයි. කඳේ රතු දුඹුරු පැහැ ලප ද දක්නට ලැබේ. කුඹුරු වටා කුණු වූ ද්‍රව්‍ය මත දිලීර අධික ලෙස ශීත කරයි."
+          }
+        ],
+        "backteria": [
+          {
+            "id": "backteria-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+            "title": "හැලෝ අංගමාරය",
+            "image": "https://ag.umass.edu/sites/ag.umass.edu/files/fact-sheets/images/clip_image003.jpg",
+            "desc": "පත්‍ර රෝග ලක්‍ෂණ පළමුව පහළ කොළ මතුපිට කුඩා ජලයෙන් පොඟවා ඇති ලප ලෙස පෙනේ. මෙම තුවාල සීඝ්‍රයෙන් නෙරෝසිස් බවට පත් වන අතර ඉහළ සහ පහළ පත්‍ර මතුපිට දක්නට ලැබේ. ප්‍රසාරණය වන කොළ ආසාදනය වීමෙන් පත්‍ර විකෘති වීමට ඉඩ ඇත. නෙරෝටික් ලප වටා කහ පටක වල ක්ලෝරෝටික් කලාපයක් (හැලෝ) වර්ධනය වේ. දරුණු ආසාදන අවස්ථාවන්හිදී, සාමාන්‍ය පද්ධතිමය ක්ලෝරෝසිස් ඇතිවිය හැක. කරල් සහ කඳන් වල ජලයේ පොඟවා ගත් රතු පාට හෝ දුඹුරු පැහැ ලප ඇති බවට රෝග ලක්‍ෂණ ඇති වන අතර එමඟින් කබොල බැක්ටීරියා පිටවීම පෙන්නුම් කළ හැකිය.",
+            "preventionsList": [
+              "සහතික කළ රෝග වලින් තොර බීජ වලින් පටන් ගන්න. ශුෂ්ක ප්‍රදේශවල නිෂ්පාදනය කර හැලෝ අංගමාරයෙන් නිදහස් වීම සඳහා පරීක්‍ෂා කළ බීජ භාවිතා කළ යුතුය.",
+              "ප්‍රතිරෝධයක් ඇති වගා වර්ග තිබේ.",
+              "අවුරුදු 2-4 ක් සත්කාරක නොවන බෝග සඳහා කරකවන්න.",
+              "දිරාපත් වීම දිරිමත් කිරීම සඳහා අස්වැන්න නෙලීමෙන් පසු බෝංචි සුන්බුන් වහාම ඇතුළත් කරන්න.",
+              "බැක්ටීරියා සඳහා ජලාශ විය හැකි වල් පැලෑටි සහ ස්වේච්ඡා බෝංචි ඉවත් කරන්න.",
+              "බැක්ටීරියා ද්විතියික බෝවීම වැළැක්වීම සඳහා විලි හෝ බිංදු වාරිමාර්ග යෙදීම වඩාත් සුදුසුය.",
+              "ශාක පත්‍ර තෙත් වූ විට වගාබිම් සහ කෙත්වතු හරහා වෙනත් ගමනාගමනය වළක්වා ගන්න."
+            ]
+          },
+
+          {
+            "id": "backteria-bd7acbea-c1b1-46c2-aed5-3ad53abb28bb",
+            "title": "සූඩෝමොනාස් සිරින්ජේ පීවී",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcPquH5e0F4CS5lmGzj6f020Bo-Qn0Dt1bsg&usqp=CAU",
+            "desc": "බැක්ටීරියා දුඹුරු පැහැ ලප ඇතිවීමට හේතු වන්නේ සයිඩෝමොනාස් සිරින්ජේ පීවී බැක්ටීරියාවයි.ලීමා බෝංචි වල කුඩා දුඹුරු පැහැති මායිම් සහිත ලා අළු පැහැති ලප ඉහළ පත්‍ර මතුපිට මත හට ගනී. ජලය පොඟවා ගැනීම පොදුවේ සහ හැලෝ අංගමාරය මෙන් උච්චාරණය නොකෙරේ. පසුව, අළු පැහැති මධ්‍යස්ථාන ඉරිතැලීමට හෝ වැටීමට ඉඩ ඇති අතර කුඩා සිදුරු ඉතිරි වේ. පත්‍ර පත්‍ර මතුපිට නහර රතු පැහැයට හුරු දුඹුරු පැහැයට හැරේ. කඳන් හා කරල් වල ලප කොළ වල ලප වලට වඩා තරමක් දික් වේ. දරුණු අවස්ථාවල දී ශාක පත්‍ර බොහෝමයක් විනාශ විය හැකිය."
+          }
+        ],
+        "insects":[
+          {
+            "id": "insects-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+            "title": "හම්බෙල්ලන් සහ ගොළුබෙල්ලන්",
+            "image":
+              "https://www.corrys.com/-/media/Images/Corrys-NA/US/Articles/Slugs-and-Snails-All-You-Need-To-Know/multiple-slugs-eating.jpg?h=600&la=en&w=800&hash=7B7B5AFA37081CC3998020E986B248CF46212038",
+            "desc": "ගොළුබෙල්ලන් සහ ගොළුබෙල්ලන් සාමාන්‍යයෙන් වත්තට වඳ වන පළිබෝධකයන් වන අතර එමඟින් බෝංචි වගා කරන්නන් සඳහා ගැටලු ඇති වේ. මෙම උද්‍යාන මොලස්කාවන් රාත්‍රියේදී හෝ වළාකුළු සහිත හෝ මීදුම සහිත දිනවල ශාක පත්‍ර හා මල් හපමින් අපිරිසිදු වැඩ කරති. හිරු එළිය වැටෙන විට ඒවා කලාතුරකින් දක්නට ලැබෙන අතර පාෂාණ, පැලෑටි බඳුන් හෝ ලී පුවරුවල නවාතැන් ගැනීමට කැමැත්තක් දක්වයි. කොළ බෝංචි වල විශාල අක්‍රමවත් හැඩැති සිදුරු ගොළුබෙල්ලන් හෝ ගොළුබෙල්ලන්ගේ ගැටලුවක ලකුණක් වන අතර ඒවා රිදී පැහැයෙන් යුත් ශ්ලේෂ්මල පෙදෙසද ඉතිරි කරයි."
+          }
+        ],
+        "soil": [
+          {
+            "id": "soil-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+            "title": "soil disease1",
+            "image": "https://plantvillage-production-new.s3.amazonaws.com/images/pics/000/000/767/original/White_mold_2.jpg?1370528410",
+            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+          },
+          {
+            "id": "soil-bd7acbea-c1b1-46c2-aed5-3ad53abb28bc",
+            "title": "soil disease2",
+            "image": "https://plantvillage-production-new.s3.amazonaws.com/images/pics/000/000/767/original/White_mold_2.jpg?1370528410",
+            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+          }
+        ]
+      }
+    },
     "firstScreen": {
       "title": "භාෂාව තෝරන්න",
       "button": "ඊළඟ"
@@ -179,7 +277,14 @@
     "homeScreen": {
       "title": "ප්රධාන තිරය",
       "logout": "ඉවත් වන්න",
-      "mainTitle": "එළවළු"
+      "mainTitle": "එළවළු",
+      "helpBtnText": "උදව්"
+    },
+    "helpScreen": {
+      "title": "උදව් තිරය",
+      "postText": "උදව් ඉල්ලන්න",
+      "previousQuestionText": "කලින් අසන ලද ප්‍රශ්ණ",
+      "logout": "ඉවත් වන්න"
     },
     "diseaseTypeScreen": {
       "title": "රෝග වර්ග තිරය",
@@ -192,6 +297,11 @@
     },
     "diseaseDetailScreen": {
       "title": "රෝග විස්තර තිරය"
+    },
+    "answersScreen":{
+      "title": "පිළිතුරු",
+      "addAnswerBtn" : "පිළිතුර සඳහන් කරන්න",
+      "answerPlaceHolderInput": "පිළිතුර"
     }
   }
 }
