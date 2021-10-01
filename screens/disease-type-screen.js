@@ -183,7 +183,7 @@ export function DiseaseTypeScreen({ route, navigation }) {
         </TouchableOpacity>
       </View>
       <FlatList
-        data={diseasesList[typeSelected]}
+        data={diseasesList?.[typeSelected]}
         renderItem={renderItem}
         keyExtractor={(item) => item.id}
       />
