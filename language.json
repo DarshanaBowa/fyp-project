@@ -38,6 +38,64 @@
         "title": "Carrots"
       }
     ],
+    "diseases": {
+      "beans": {
+        "fungus": [
+          {
+            "id": "fungus-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+            "title": "disease1",
+            "image": "https://previews.123rf.com/images/wisawa222/wisawa2221908/wisawa222190800006/128945071-kidney-bean-with-fungus-very-dangerous.jpg",
+            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+          },
+          {
+            "id": "fungus-3ac68afc-c605-48d3-a4f8-fbd91aa97f63",
+            "title": "fungus disease2",
+            "image": "https://previews.123rf.com/images/wisawa222/wisawa2221908/wisawa222190800006/128945071-kidney-bean-with-fungus-very-dangerous.jpg",
+            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+          },
+          {
+            "id": "fungus-58694a0f-3da1-471f-bd96-145571e29d72",
+            "title": "disease3",
+            "image": "https://previews.123rf.com/images/wisawa222/wisawa2221908/wisawa222190800006/128945071-kidney-bean-with-fungus-very-dangerous.jpg",
+            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+          }
+        ],
+        "backteria": [
+          {
+            "id": "backteria-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+            "diseaseId": "backteria-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+            "title": "Halo Blight",
+            "image": "https://ag.umass.edu/sites/ag.umass.edu/files/fact-sheets/images/clip_image003.jpg",
+            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food.",
+            "preventionsList": [
+              "Start with certified, disease free seed. Seed produced in arid areas and tested for freedom from Halo blight should be used.",
+              "Cultivars with resistance are available.",
+              "Rotate to non-host crops for 2-4 years.",
+              "Promptly incorporate bean debris after harvest to encourage decomposition.",
+              "Eliminate weeds and volunteer beans that might be potential reservoirs for the bacteria.",
+              "Furrow or drip irrigation is preferred to prevent secondary spread of the bacteria.",
+              "Avoid cultivation and other traffic through fields when the foliage is wet."
+            ]
+          }
+        ],
+        "insects": [
+          {
+            "id": "insects-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+            "title": "insects disease1",
+            "image": "https://www.growingproduce.com/wp-content/uploads/2014/11/bean-leaf-beetle-for-web.jpg",
+            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+          }
+        ],
+        "soil": [
+          {
+            "id": "soil-bd7acbea-c1b1-46c2-aed5-3ad53abb28ba",
+            "title": "soil disease1",
+            "image": "https://plantvillage-production-new.s3.amazonaws.com/images/pics/000/000/767/original/White_mold_2.jpg?1370528410",
+            "desc": "A bean is the seed of one of several genera of the flowering plant family Fabaceae, which are used as vegetables for human or animal food."
+          }
+        ]
+      }
+    },
     "firstScreen": {
       "title": "Select Language",
       "button": "Next"
@@ -53,6 +111,18 @@
       "title": "Home Screen",
       "logout": "Logout",
       "mainTitle": "Vegetables"
+    },
+    "diseaseTypeScreen": {
+      "title": "Disease Types",
+      "diseaseType": {
+        "fungus": "Fungus",
+        "backteria": "Backteria",
+        "insects": "Insects",
+        "soil": "Soil"
+      }
+    },
+    "diseaseDetailScreen": {
+      "title": "Disease Controls & Preventions"
     }
   },
   "sin": {
@@ -94,6 +164,7 @@
         "title": "කැරට්"
       }
     ],
+    "diseases": {},
     "firstScreen": {
       "title": "භාෂාව තෝරන්න",
       "button": "ඊළඟ"
@@ -109,6 +180,18 @@
       "title": "ප්රධාන තිරය",
       "logout": "ඉවත් වන්න",
       "mainTitle": "එළවළු"
+    },
+    "diseaseTypeScreen": {
+      "title": "රෝග වර්ග තිරය",
+      "diseaseType": {
+        "fungus": "දිලීර",
+        "backteria": "බැක්ටීරියා",
+        "insects": "කෘමීන්",
+        "soil": "පාංශු"
+      }
+    },
+    "diseaseDetailScreen": {
+      "title": "රෝග විස්තර තිරය"
     }
   }
 }
